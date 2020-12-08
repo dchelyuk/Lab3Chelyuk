@@ -2,7 +2,7 @@
 #include "Molecule.h"
 
 int main() {
-    Molecule *HNCO = new Molecule("Isocyanic acid", "HNCO");
+    Molecule *hnco = new Molecule("Isocyanic acid", "HNCO");
     /*Atom H("H", "Hydrogen", 1, 0, 1, 1, Atom::ISOTYPE);
     Atom O("O", "Oxygen", 15, 8, 8, 8, Atom::ANTIMATTER);
     Atom C("C", "Carbon", 12, 6, 6, 8, Atom::ION);
@@ -12,6 +12,6 @@ int main() {
     cout << H.isNeutral() << endl;
     cout << O.isNeutral() << endl;
     cout << C.isNeutral() << endl;*/
-    cout << HNCO->chemicalFormula << " avarage mass: " << HNCO->findAverageMass() << endl;
+    cout << hnco->chemicalFormula << " avarage mass: " << HNCO->findAverageMass() << endl;
     return 0;
 }
