@@ -4,7 +4,7 @@ class Molecule {
 public:
     string chemicalFormula;
     string moleculeName;
-    Atom *Array[4];
+    Atom *array[4];
 
     Molecule() = default;
 
